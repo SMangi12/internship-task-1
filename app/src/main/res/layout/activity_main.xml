@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:background="#005F52">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Internship"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#EDD58A"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/fullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabreen Mangi"
+            android:textSize="22sp"
+            android:textColor="#EDD58A"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:id="@+id/internTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile App Developer Intern – August 2025"
+            android:textSize="18sp"
+            android:textColor="#EDD58A"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif" />
+    </LinearLayout>
+</RelativeLayout>
